@@ -1,12 +1,16 @@
 <template>
  
+ <page-header></page-header>
 </template>
 
 <script>
 
+import PageHeader from '@/components/PageHeader.vue'
+
 export default {
   name: 'App',
   components: {
+    PageHeader
   },
   mounted() {
     this.$stateService.getAllStates().then( states => console.log(states))
@@ -21,6 +25,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+ 
 }
 </style>
