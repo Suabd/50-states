@@ -19,7 +19,7 @@ export default createRouter({
         },
         {
             path:'/map/:state',
-            namr: 'StateMap',
+            name: 'StateMap',
             component: StateMap
         }
     ]

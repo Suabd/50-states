@@ -12,7 +12,7 @@
         <div>
             <!--/map/Iowa or /map/Georgia /-->
             <router-link v-bind:to=" {name: 'StateMap', params: {state: state.name} }">
-                <img class="map-icon" scr="@/assets/map_icon.png">
+                <img class="map-icon" src="@/assets/map_icon.png">
             </router-link>
         </div>
         
@@ -61,8 +61,14 @@ export default {
 .visit-state {
     margin: 1rem;
     text-align: center;
-
 }
+
+.map-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+
 
 
 </style>
