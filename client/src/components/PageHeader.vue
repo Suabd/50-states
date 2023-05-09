@@ -1,6 +1,6 @@
 <template>
     <div id="block-header">
-        <h1 id="title">Have you vidited every states?</h1>
+        <h1 id="title">Have you visited every states?</h1>
     </div>
 </template>
 

@@ -11,6 +11,7 @@ router.get('/states', function(req, res, next){
     .catch( err => next(err) )
 })
 
+
 // patch router to update a state - visitied or not
 // request to states/Iowa
 router.patch('/state/:name', function(req, res, next){
