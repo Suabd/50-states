@@ -3,8 +3,7 @@
  <div>
   <page-header></page-header>
 
-  <p>Todo-app content</p>
-  <state-list></state-list>
+  <router-view></router-view>
 
   <Page-footer></Page-footer>
 

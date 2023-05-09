@@ -18,12 +18,12 @@ export default {
     margin-bottom: 2rem;
     border-radius: .3rem;
     background-color: saddlebrown; 
-    background-image:url('~@/assets/map_header.jpg') ;
+    background-image: url('~@/assets/map_header.jpg') ;
     background-position: center;
     background-size: cover;
 }
 
-#litle {
+#title {
     font-weight: 500;
     color: ghostwhite;
 }
