@@ -13,7 +13,7 @@ router.get('/states', function(req, res, next){
 
 // patch router to update a state - visitied or not
 // request to states/Iowa
-router.patch('/states/:name', function(req, res, next){
+router.patch('/state/:name', function(req, res, next){
     let stateName = req.params.name       //Iowa
     let stateVisited = req.body.visited   // true
 

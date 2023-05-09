@@ -8,6 +8,15 @@
             <input class="visit-state" type="checkbox" v-model="visited" v-on:change="visitedChanged">
         </div>
 
+        
+        <div>
+            <!--/map/Iowa or /map/Georgia /-->
+            <router-link v-bind:to=" {name: 'StateMap', params: {state: state.name} }">
+                <img class="map-icon" scr="@/assets/map_icon.png">
+            </router-link>
+        </div>
+        
+
 
     </div>
 </template>
