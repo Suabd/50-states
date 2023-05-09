@@ -25,7 +25,7 @@ export default {
 
 #litle {
     font-weight: 500;
-    color: ghostwhite
+    color: ghostwhite;
 }
 </style>
 

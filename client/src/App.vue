@@ -1,20 +1,31 @@
 <template>
- 
- <page-header></page-header>
+
+ <div>
+  <page-header></page-header>
+
+  <p>Todo-app content</p>
+  <state-list></state-list>
+
+  <Page-footer></Page-footer>
+
+</div>
 </template>
 
 <script>
 
 import PageHeader from '@/components/PageHeader.vue'
+import PageFooter from './components/PageFooter.vue'
+import StateList from './components/StateList.vue'
+
 
 export default {
   name: 'App',
   components: {
-    PageHeader
-  },
-  mounted() {
-    this.$stateService.getAllStates().then( states => console.log(states))
+    PageHeader,
+    PageFooter,
+    StateList
   }
+ 
 }
 </script>
 
