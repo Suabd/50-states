@@ -8,7 +8,7 @@ router.get('/states', function(req, res, next){
     States.findAll({ order: ['name']}).then( states => {
         return res.json(states)
     })
-    .catch( err => next(err) )
+    .catch( err => next(err) ) // for any error
 })
 
 

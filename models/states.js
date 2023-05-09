@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
     }
   }
-  States.init({
+  States.init({ // javaScript uses this for states table
     name: DataTypes.STRING,
     visited: DataTypes.BOOLEAN,
     lat: DataTypes.FLOAT,
