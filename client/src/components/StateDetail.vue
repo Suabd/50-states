@@ -10,7 +10,7 @@
 
         
         <div>
-            <!--/map/Iowa or /map/Georgia /-->
+            <!--/map/Iowa or /map/Georgia, /--> 
             <router-link v-bind:to=" {name: 'StateMap', params: {state: state.name} }">
                 <img class="map-icon" src="@/assets/map_icon.png">
             </router-link>
@@ -37,7 +37,7 @@ export default {
     },
 
     methods: {
-        visitedChanged() {
+        visitedChanged() { //emit message from child to the parent
             this.$emit('update-visited', this.state.name, this.visited)
         }
     }
